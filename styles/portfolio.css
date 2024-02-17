@@ -7,6 +7,9 @@ body{
 /* header related styles */
 .header{
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* nav related styles */
@@ -54,4 +57,35 @@ font-weight: 800;
     display: flex;
     align-items: center;
     padding: 0px 38px 0px 230px;
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+}
+.banner-greeting{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+}
+.banner-heading{
+font-size: 85px;
+font-weight: 700;
+color: #181818;
+}
+.banner-description{
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+color: #757575;
+}
+
+/* main styles */
+
+/* about section styles */
+.about{
+    max-width:1140px ;
+    border-radius: 10px;
+background: #FFF8F3;
+padding: 131px 157px;
+/* justify-content: center;
+align-items: center; */
+text-align: center;
 }
