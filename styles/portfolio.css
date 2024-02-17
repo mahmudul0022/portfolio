@@ -2,19 +2,19 @@
 body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+   
 }
 
 /* nav related styles */
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -24,4 +24,23 @@ nav li{
 nav a{
     text-decoration: none;
 
+}
+.orange{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color:  #FFF;
+    border-radius: 5px;
+    border: 0;
+background: #FD6E0A;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+padding: 18px 35px;
+
+}
+.banner-caption{
+    color: var(--Dark-01, #181818);
+font-size: 45px;
+font-weight: 800;
 }
