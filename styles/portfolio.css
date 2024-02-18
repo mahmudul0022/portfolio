@@ -137,4 +137,31 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     margin: 130px 230px;
 
 }
+/* footer styles */
+.footer-section{
+    background: #FFF8F3;
+    max-width: 1600px;
+    padding: 130px 230px;
 
+}
+.footer-information{
+    display: flex;
+    gap: 50px;
+}
+.footer-colum form input, textarea{
+    margin-bottom: 20px;
+    border-radius: 5px;
+background: var(--White-Color, #FFF);
+}
+.footer-colum form input{
+    padding: 18px 250px 18px 30px;
+    border: none;
+}
+.footer-colum form textarea{
+    padding: 18px 169px 134px 30px;
+}
+.footer-colum-title{
+    color:  #181818;
+font-size: 35px;
+font-weight: 700;
+}
